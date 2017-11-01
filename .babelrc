@@ -1,0 +1,39 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "targets": {
+          "browsers": [
+            "Chrome 60"
+          ]
+        },
+        "modules": false
+      }
+    ],
+    "react"
+  ],
+  "plugins": [
+    "emotion",
+    "react-hot-loader/babel"
+  ],
+  "env": {
+    "production": {
+      "presets": [
+        [
+          "env",
+          {
+            "targets": {
+              "browsers": ["last 2 version"]
+            },
+            "modules": false
+          }
+        ],
+        "react"
+      ],
+      "plugins": [
+        "emotion"
+      ]
+    }
+  }
+}

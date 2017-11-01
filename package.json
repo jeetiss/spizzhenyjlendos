@@ -1,0 +1,39 @@
+{
+  "name": "scroll_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production BABEL_ENV=production webpack",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "cross-env": "^5.0.5",
+    "html-webpack-plugin": "^2.30.1",
+    "mathjs": "^3.16.4",
+    "node-static": "^0.7.10",
+    "react-hot-loader": "^3.0.0",
+    "typescript": "^2.5.3",
+    "typescript-styled-plugin": "^0.1.2",
+    "uglifyjs-webpack-plugin": "^1.0.0-rc.0",
+    "webpack": "^3.6.0",
+    "webpack-blocks": "^1.0.0-rc",
+    "webpack-dev-server": "^2.9.1"
+  },
+  "dependencies": {
+    "babel-plugin-emotion": "^8.0.4",
+    "emotion": "^8.0.5",
+    "is-touch-device": "^1.0.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-emotion": "^8.0.5",
+    "recompose": "^0.26.0"
+  }
+}
