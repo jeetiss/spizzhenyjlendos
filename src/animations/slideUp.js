@@ -4,8 +4,6 @@ const slideUp = (prev, next, scroll, size) => {
   return [
     injectProps(prev, {
       style: {
-        bottom: 'none',
-        height: '120vh',
         transform: `translateY(-${size * normalize(scroll, size, 100)}px)`
       },
       key: 'one'

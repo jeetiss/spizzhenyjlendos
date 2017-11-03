@@ -1,5 +1,5 @@
 import React from 'react'
-import { PageContainer, H1, P, Footer, Link, Copywrite, Text } from './styled'
+import { PageContainer, H1, P, Footer, Link, Copywrite } from './styled'
 
 const TitlesPage = ({ style }) => (
   <PageContainer background='#000' style={style}>
@@ -34,17 +34,15 @@ const TitlesPage = ({ style }) => (
     </Footer>
 
     <Copywrite>
-      <Text>
-        Дизайн
-        {' '}
-        <Link
-          color='#fff'
-          target='_blank'
-          href='https://dribbble.com/shots/3835516-My-new-personal-page'
-        >
-          Артем Тарадаш
-        </Link>
-      </Text>
+      Дизайн
+      {' '}
+      <Link
+        color='#fff'
+        target='_blank'
+        href='https://dribbble.com/shots/3835516-My-new-personal-page'
+      >
+        Артем Тарадаш
+      </Link>
     </Copywrite>
   </PageContainer>
 )

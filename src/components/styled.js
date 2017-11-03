@@ -25,7 +25,7 @@ export const PageContainer = styled('section')`
 
   padding: 60px;
 
-  grid-template-rows: min-content min-content min-content 1fr;
+  grid-template-rows: 1fr min-content min-content 1fr;
   grid-template-columns: fit-content(1024px);
   grid-gap: 15px;
 
@@ -39,6 +39,7 @@ export const PageContainer = styled('section')`
 `
 
 export const H1 = styled('h1')`
+  align-self: end;
   color: ${props => props.color || '#000'};
   margin: 0;
   text-transform: uppercase;
@@ -119,15 +120,11 @@ export const Footer = styled('footer')`
 `
 
 export const Copywrite = styled('div')`
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-`
-
-export const Text = styled('div')`
   color: #fff;
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   line-height: 20px;
   font-weight: 100;
+  align-self: end;
+  text-align: end;
 `
