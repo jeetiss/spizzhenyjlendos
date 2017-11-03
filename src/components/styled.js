@@ -64,6 +64,10 @@ export const P = styled('p')`
   font-weight: 800;
   pointer-events: none;
 
+  & + & {
+    margin-top: 20px;
+  }
+
   @media ${phone} {
     font-size: 28px;
     line-height: 30px;
