@@ -80,7 +80,7 @@ const A = props => (
   <a
     {...props}
     onClick={e => {
-      window.mixpanel.track('open link', { domain: props.href })
+      window.mixpanel && window.mixpanel.track('open link', { domain: props.href })
     }}
   />
 )

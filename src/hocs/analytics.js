@@ -2,7 +2,7 @@ import { lifecycle } from 'recompose'
 
 const analytics = lifecycle({
   componentDidMount () {
-    window.mixpanel.track('open site')
+    window.mixpanel && window.mixpanel.track('open site')
   }
 })
 
