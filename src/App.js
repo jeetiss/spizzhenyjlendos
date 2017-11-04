@@ -16,6 +16,7 @@ import blackHole from './animations/blackHole'
 
 injectGlobal`
   body {
+    background-color: #dfefe7;
     margin: 0;
   }
 `

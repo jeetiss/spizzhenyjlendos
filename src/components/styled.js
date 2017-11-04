@@ -23,11 +23,15 @@ export const PageContainer = styled('section')`
 
   background-color: ${props => props.background || '#dfefe7'};
 
-  padding: 60px;
+  padding: 15px 60px;
 
+  grid-template-rows: 1fr -webkit-min-content -webkit-min-content 1fr;
   grid-template-rows: 1fr min-content min-content 1fr;
   grid-template-columns: fit-content(1024px);
   grid-gap: 15px;
+
+  box-sizing: border-box;
+  height: 100%;
 
   justify-content: center;
 
@@ -130,5 +134,5 @@ export const Copywrite = styled('div')`
   line-height: 20px;
   font-weight: 100;
   align-self: end;
-  text-align: end;
+  justify-self: end;
 `

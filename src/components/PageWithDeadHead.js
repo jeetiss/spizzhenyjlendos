@@ -32,13 +32,19 @@ const Scroll = styled('div')`
   position: absolute;
 
   bottom: 15px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
   
   & > svg {
     fill: #1cb767;
     width: 40px;
+    height: 40px;
 
     @media ${phone} {
       width: 20px;
+      height: 20px;
     }
   }
 `
