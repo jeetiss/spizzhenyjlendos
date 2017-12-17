@@ -7,19 +7,19 @@ const TitlesPage = ({ style }) => (
 
     <div>
       <P color='#fff'>
-        <Link color='#fff' href='#'>
+        <Link color='#fff' href='https://riders-web-app-staging.herokuapp.com/en/ski/'>
           Собрал MVP для Riders
         </Link>
       </P>
 
       <P color='#fff'>
-        <Link color='#fff' href='#'>
+        <Link color='#fff' href='http://statzilla.ru/' target='_blank'>
           Парсил данные для Statzilla
         </Link>
       </P>
 
       <P color='#fff'>
-        <Link color='#fff' href='#'>
+        <Link color='#fff' href='https://ru.tradingview.com/chart/' target='_blank'>
           Делал трейдинг в Tradingview
         </Link>
       </P>
